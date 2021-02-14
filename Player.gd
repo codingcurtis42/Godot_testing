@@ -10,10 +10,10 @@ var velocity = Vector2.ZERO
 
 func _ready():
 	screen_size = get_viewport_rect().size
-	curHP = 20
-	maxHP = 20
-	damage = 2
-	p1name = 'test2'
+	#curHP = 20
+	#maxHP = 20
+	#damage = 2
+	#p1name = 'test2'
 
 func _physics_process(delta):
 	

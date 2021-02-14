@@ -2,5 +2,5 @@
 
 [ext_resource path="res://GlobalVaribles.gd" type="Script" id=1]
 
-[node name="GlobalVaribles" type="Node2D"]
+[node name="GlobalVaribles" type="Node"]
 script = ExtResource( 1 )

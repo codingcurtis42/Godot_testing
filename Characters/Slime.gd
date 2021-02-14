@@ -6,6 +6,4 @@ var damage : int = 1
 
 
 func _ready():
-	curHP = 10
-	maxHP = 10
-	damage = 1
+	pass

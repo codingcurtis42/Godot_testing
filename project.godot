@@ -20,6 +20,7 @@ run/main_scene="res://World.tscn"
 
 [autoload]
 
+GlobalScene="*res://GlobalVaribles.tscn"
 GlobalVaribles="*res://GlobalVaribles.gd"
 
 [display]

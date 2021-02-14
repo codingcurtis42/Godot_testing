@@ -1,4 +1,4 @@
-extends Node2D
+extends Node
 
 # Player Variables
 var curHP : int = 10 
@@ -9,8 +9,8 @@ var curLevelocity : int = 1
 var curXP : int = 0
 var xpToNextLevelocity : int = 50
 var xpToLevelocityIncreaseRate : int = 1.2
-var p1name
+var p1name = 'test2'
 
 
 func _ready():
-	p1name = 'test2'
+	pass
