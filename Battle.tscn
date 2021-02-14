@@ -1,0 +1,243 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Art/FF1_Red_Mage.png" type="Texture" id=1]
+[ext_resource path="res://Art/Slime.png" type="Texture" id=2]
+[ext_resource path="res://Art/animated-forest-background-3.png" type="Texture" id=3]
+[ext_resource path="res://Battle.gd" type="Script" id=4]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.0235294, 0.0745098, 0.615686, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.0235294, 0.0745098, 0.615686, 1 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 154.174, 60.7352 )
+scale = Vector2( 0.4, 0.3 )
+texture = ExtResource( 3 )
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = 140.0
+margin_top = 111.0
+margin_right = 320.0
+margin_bottom = 180.0
+custom_styles/panel = SubResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel"]
+margin_left = 6.5833
+margin_top = 5.86798
+margin_right = 60.5833
+margin_bottom = 19.868
+text = "Player1"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="Panel"]
+margin_left = 7.33244
+margin_top = 21.6002
+margin_right = 61.3324
+margin_bottom = 35.6002
+text = "Player2"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label3" type="Label" parent="Panel"]
+margin_left = 6.5833
+margin_top = 38.0816
+margin_right = 60.5833
+margin_bottom = 52.0816
+text = "Player3"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label4" type="Label" parent="Panel"]
+margin_left = 5.83415
+margin_top = 53.8138
+margin_right = 59.8342
+margin_bottom = 67.8138
+text = "Player4"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label5" type="Label" parent="Panel"]
+margin_left = 65.6445
+margin_top = 3.99637
+margin_right = 119.644
+margin_bottom = 17.9964
+text = "100/100"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label6" type="Label" parent="Panel"]
+margin_left = 122.701
+margin_top = 3.62309
+margin_right = 176.701
+margin_bottom = 17.6231
+text = "100/100"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label7" type="Label" parent="Panel"]
+margin_left = 123.516
+margin_top = 35.368
+margin_right = 177.516
+margin_bottom = 49.368
+text = "100/100"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label8" type="Label" parent="Panel"]
+margin_left = 124.016
+margin_top = 19.368
+margin_right = 178.016
+margin_bottom = 33.368
+text = "100/100"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label9" type="Label" parent="Panel"]
+margin_left = 65.0164
+margin_top = 52.368
+margin_right = 119.016
+margin_bottom = 66.368
+text = "100/100"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label10" type="Label" parent="Panel"]
+margin_left = 65.7664
+margin_top = 36.118
+margin_right = 119.766
+margin_bottom = 50.118
+text = "100/100"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label11" type="Label" parent="Panel"]
+margin_left = 123.016
+margin_top = 51.368
+margin_right = 177.016
+margin_bottom = 65.368
+text = "100/100"
+uppercase = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="Panel"]
+margin_left = 65.7242
+margin_top = 21.1297
+margin_right = 122.724
+margin_bottom = 36.1297
+text = "100/100"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel2" type="Panel" parent="."]
+margin_left = 0.579544
+margin_top = 111.0
+margin_right = 139.58
+margin_bottom = 180.0
+custom_styles/panel = SubResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Panel2"]
+margin_left = 3.08677
+margin_top = 6.17354
+margin_right = 43.0868
+margin_bottom = 20.1735
+text = "Mob1"
+uppercase = true
+
+[node name="Label2" type="Label" parent="Panel2"]
+margin_left = 3.0
+margin_top = 23.0
+margin_right = 50.0
+margin_bottom = 37.0
+text = "Mob2"
+uppercase = true
+
+[node name="Label3" type="Label" parent="Panel2"]
+margin_left = 3.36739
+margin_top = 39.0056
+margin_right = 43.3674
+margin_bottom = 53.0056
+text = "Mob3"
+uppercase = true
+
+[node name="Label4" type="Label" parent="Panel2"]
+margin_left = 3.648
+margin_top = 54.4394
+margin_right = 43.648
+margin_bottom = 68.4394
+text = "Mob4"
+uppercase = true
+
+[node name="FF1_Red_Mage" type="Sprite" parent="."]
+position = Vector2( 218.031, 13.5329 )
+texture = ExtResource( 1 )
+
+[node name="FF1_Red_Mage2" type="Sprite" parent="."]
+position = Vector2( 234.513, 40.6903 )
+texture = ExtResource( 1 )
+
+[node name="FF1_Red_Mage3" type="Sprite" parent="."]
+position = Vector2( 245.925, 68.2211 )
+texture = ExtResource( 1 )
+
+[node name="FF1_Red_Mage4" type="Sprite" parent="."]
+position = Vector2( 264.238, 95.1906 )
+texture = ExtResource( 1 )
+
+[node name="Slime" type="Sprite" parent="."]
+position = Vector2( 65.3792, 21.0244 )
+texture = ExtResource( 2 )
+
+[node name="Slime2" type="Sprite" parent="."]
+position = Vector2( 63.8809, 44.2482 )
+texture = ExtResource( 2 )
+
+[node name="Slime3" type="Sprite" parent="."]
+position = Vector2( 60.8842, 68.2211 )
+texture = ExtResource( 2 )
+
+[node name="Slime4" type="Sprite" parent="."]
+position = Vector2( 60.1351, 96.6889 )
+texture = ExtResource( 2 )

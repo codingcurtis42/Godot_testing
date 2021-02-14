@@ -1,0 +1,76 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Characters/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Art/World Map.png" type="Texture" id=3]
+
+[node name="World" type="Node2D"]
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( -3474.07, -2363.5 )
+scale = Vector2( 1.7, 1.7 )
+texture = ExtResource( 3 )
+centered = false
+region_rect = Rect2( -3, 0, 322, 179 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Background"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Background/StaticBody2D"]
+polygon = PoolVector2Array( 1893.07, 1423.74, 1893.07, 1438.45, 1907.23, 1438.17, 1905.29, 1425.12 )
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Background"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Background/StaticBody2D2"]
+polygon = PoolVector2Array( 1845.05, 1424.01, 1845.05, 1438.45, 1858.65, 1437.62, 1856.98, 1424.01 )
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Background"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Background/StaticBody2D3"]
+position = Vector2( 127.978, 15.8237 )
+polygon = PoolVector2Array( 1845.05, 1424.01, 1845.05, 1438.45, 1858.65, 1437.62, 1856.98, 1424.01 )
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="Background"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Background/StaticBody2D4"]
+position = Vector2( 127.701, -16.1013 )
+polygon = PoolVector2Array( 1845.05, 1424.01, 1845.05, 1438.45, 1858.65, 1437.62, 1856.98, 1424.01 )
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="Background"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Background/StaticBody2D5"]
+position = Vector2( 96.3307, -31.925 )
+polygon = PoolVector2Array( 1845.05, 1424.01, 1845.05, 1438.45, 1858.65, 1437.62, 1856.98, 1424.01 )
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="Background"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Background/StaticBody2D6"]
+position = Vector2( 95.7755, 0 )
+polygon = PoolVector2Array( 1845.05, 1424.01, 1845.05, 1438.45, 1858.65, 1437.62, 1856.98, 1424.01 )
+
+[node name="StaticBody2D7" type="StaticBody2D" parent="Background"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Background/StaticBody2D7"]
+position = Vector2( 96.0531, 31.6475 )
+polygon = PoolVector2Array( 1845.05, 1424.01, 1845.05, 1438.45, 1858.65, 1437.62, 1856.98, 1424.01 )
+
+[node name="StaticBody2D8" type="StaticBody2D" parent="Background"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Background/StaticBody2D8"]
+position = Vector2( 130.227, 35.1661 )
+polygon = PoolVector2Array( 1908.21, 1428.06, 1907.75, 1451.87, 1538.91, 1451.4, 1538.43, 1331.29, 1553.41, 1339, 1858.58, 1339, 1866.29, 1336.14, 1866.74, 1328.59, 1873.78, 1327.98, 1873.34, 1293.39, 1866.51, 1290.97, 1863.21, 1286.12, 1537.93, 1283.76, 1537.31, 1234.88, 1506.53, 1234.67, 1506.12, 1474.16, 2562.9, 1474.98, 2571.73, 1452.04, 2560.11, 1459.25, 2555.58, 1459.52, 2552.46, 1452.93, 2544.37, 1453.81, 2544.23, 1443.96, 2535.4, 1437.04, 2524.96, 1435.57, 2513.49, 1453.22, 2224.7, 1452.92, 2224.12, 1427.95, 2208.48, 1423.51, 2207.08, 1411.49, 2198.67, 1404.84, 2162.61, 1403.55, 2162.39, 1452.9, 1969.02, 1452.76, 1968.97, 1415.39, 1956.42, 1405.49, 1932.65, 1405.49 )
+
+[node name="StaticBody2D9" type="StaticBody2D" parent="Background"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Background/StaticBody2D9"]
+position = Vector2( 333.282, -13.0575 )
+polygon = PoolVector2Array( 1703.55, 1333.27, 1703.55, 1410.35, 1719.49, 1420.35, 1720.23, 1427.39, 1738.76, 1435.55, 1756.17, 1433.69, 1798.42, 1387, 1838.07, 1386.63, 1847.7, 1372.18, 1846.96, 1332.53, 1766.92, 1333.64, 1740.41, 1301.24, 1728.96, 1301.24, 1704.28, 1326.8 )
+
+[node name="StaticBody2D10" type="StaticBody2D" parent="Background"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Background/StaticBody2D10"]
+position = Vector2( 291.581, -0.864136 )
+polygon = PoolVector2Array( 1922.12, 1318.45, 1920.87, 1414.53, 1935.01, 1424.52, 2039, 1422.44, 2065.2, 1394.57, 2065.2, 1373.77, 2080.59, 1374.6, 2078.93, 1322.19, 2064.37, 1323.02, 2063.12, 1313.46, 2037.33, 1290.17, 2026.1, 1288.92, 1999.48, 1319.7, 1953.31, 1319.7, 1952.9, 1313.87, 1942.91, 1305.56, 1929.6, 1303.48 )
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="Player" parent="YSort" instance=ExtResource( 1 )]
+position = Vector2( 158.846, 89.7679 )
