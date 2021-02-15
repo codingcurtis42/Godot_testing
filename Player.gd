@@ -6,14 +6,10 @@ const MAX_SPEED = 80
 const FRICTION = 500
 var screen_size 
 var velocity = Vector2.ZERO
-
+var simultaneous_scene = preload("res://Battle.tscn").instance()
 
 func _ready():
 	screen_size = get_viewport_rect().size
-	#curHP = 20
-	#maxHP = 20
-	#damage = 2
-	#p1name = 'test2'
 
 func _physics_process(delta):
 	
@@ -37,3 +33,29 @@ func _physics_process(delta):
 		$AnimatedSprite.play('Stand')
 		
 	velocity = move_and_slide(velocity)
+
+	if Input.is_action_just_pressed("ui_Force_Battle"):
+		forced_battles()
+
+
+
+func forced_battles():
+	get_tree().get_root().add_child(simultaneous_scene)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
