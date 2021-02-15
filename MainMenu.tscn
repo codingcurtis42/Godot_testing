@@ -1,3 +1,25 @@
 [gd_scene format=2]
 
 [node name="MainMenu" type="Node2D"]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+margin_left = 133.375
+margin_top = 39.0908
+margin_right = 202.375
+margin_bottom = 57.0908
+custom_colors/default_color = Color( 0.878431, 0.054902, 0.054902, 1 )
+custom_constants/table_vseparation = 0
+text = "RPG MoFo"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+margin_left = 131.603
+margin_top = 76.9431
+margin_right = 205.603
+margin_bottom = 92.9431
+text = "New Game"
+__meta__ = {
+"_edit_use_anchors_": false
+}

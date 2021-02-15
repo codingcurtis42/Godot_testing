@@ -4,6 +4,323 @@
     "Health": 10,
     "Mana": 0,
     "Attack": 5,
-    "Defense": 5
+    "Defense": 5,
+    "Art": "res://Art/Slime.png",
+    "Area": "Grasslands"
+  },
+  "Rat": {
+    "Name": "Rat",
+    "Health": 12,
+    "Mana": 0,
+    "Attack": 6,
+    "Defense": 4,
+    "Art": "res://Art/rat.png",
+    "Area": "Grasslands"
+  },
+  "Velicoraptor": {
+    "Name": "Velicoraptor",
+    "Health": 14,
+    "Mana": 0,
+    "Attack": 7,
+    "Defense": 5,
+    "Art": null,
+    "Area": "Grasslands"
+  },
+  "Trex": {
+    "Name": "Trex",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Boogeyman": {
+    "Name": "Boogeyman",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Troll": {
+    "Name": "Troll",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Ogre": {
+    "Name": "Ogre",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Dragon": {
+    "Name": "Dragon",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Orc": {
+    "Name": "Orc",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Goblin": {
+    "Name": "Goblin",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Vampire": {
+    "Name": "Vampire",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Wolf": {
+    "Name": "Wolf",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Werewolf": {
+    "Name": "Werewolf",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Golem": {
+    "Name": "Golem",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Imp": {
+    "Name": "Imp",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Witch": {
+    "Name": "Witch",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Basilisk": {
+    "Name": "Basilisk",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Griffin": {
+    "Name": "Griffin",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Hippogriff": {
+    "Name": "Hippogriff",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Skeleton": {
+    "Name": "Skeleton",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Ghost": {
+    "Name": "Ghost",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Zombie": {
+    "Name": "Zombie",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Necromancer": {
+    "Name": "Necromancer",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Mummy": {
+    "Name": "Mummy",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Kobold": {
+    "Name": "Kobold",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Centaur": {
+    "Name": "Centaur",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Cerberus ": {
+    "Name": "Cerberus",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Cyclops": {
+    "Name": "Cyclops",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Hydra": {
+    "Name": "Hydra",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Pegasus": {
+    "Name": "Pegasus",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Python": {
+    "Name": "Python",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Yeti": {
+    "Name": "Yeti",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Naga": {
+    "Name": "Naga",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Leviathan": {
+    "Name": "Leviathan",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Succubus": {
+    "Name": "Succubus",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
+  },
+  "Grendel": {
+    "Name": "Grendel",
+    "Health": "None",
+    "Mana": "None",
+    "Attack": "None",
+    "Defense": "None",
+    "Art": "None",
+    "Area": "None"
   }
 }

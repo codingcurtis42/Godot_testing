@@ -46,3 +46,4 @@ var p4xpToLevelocityIncreaseRate : int = 1.2
 
 # global Variables 
 var gold : int = 0 
+var current_area = "Grasslands"
