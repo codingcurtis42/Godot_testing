@@ -29,15 +29,13 @@ func _physics_process(delta):
 			$AnimatedSprite.flip_h = true
 	else:
 		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
-		#$AnimatedSprite.stop()
 		$AnimatedSprite.play('Stand')
 		
 	velocity = move_and_slide(velocity)
-
+	
+	# for testing battles. Remove for production
 	if Input.is_action_just_pressed("ui_Force_Battle"):
 		forced_battles()
-
-
 
 func forced_battles():
 	get_tree().get_root().add_child(simultaneous_scene)
