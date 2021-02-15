@@ -22,6 +22,7 @@ run/main_scene="res://World.tscn"
 
 GlobalScene="*res://GlobalVaribles.tscn"
 GlobalVaribles="*res://GlobalVaribles.gd"
+DataImport="*res://DataImport.gd"
 
 [display]
 

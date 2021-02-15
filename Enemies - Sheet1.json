@@ -1,0 +1,9 @@
+{
+  "Slime": {
+    "Name": "Slime",
+    "Health": 10,
+    "Mana": 0,
+    "Attack": 5,
+    "Defense": 5
+  }
+}
